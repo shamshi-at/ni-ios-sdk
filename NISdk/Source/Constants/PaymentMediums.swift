@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc public enum PaymentMedium: String, RawRepresentable  {
+@objc public enum PaymentMedium: Int, RawRepresentable  {
     case ApplePay
     case Card
     
