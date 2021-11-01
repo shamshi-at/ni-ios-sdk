@@ -15,9 +15,9 @@ import Foundation
     public var rawVal: RawValue {
         switch self {
         case .ApplePay:
-            return "ApplePay"
+            return "ApplePay" as? String
         case .Card:
-            return "Card"
+            return "Card" as? String
         }
     }
     
